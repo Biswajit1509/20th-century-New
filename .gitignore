@@ -1,0 +1,5 @@
+.ipynb_checkpoints/ 
+.venv/ 
+chrome-win64/ 
+*.exe 
+__pycache__/ 
