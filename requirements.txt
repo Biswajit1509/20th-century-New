@@ -9,3 +9,13 @@ textblob
 seaborn
 matplotlib
 pandas
+spacy == 3.4.3
+networkx == 2.8.8
+matplotlib == 3.5.3
+scipy == 1.9.3
+seaborn == 0.12.1
+networkx==2.8.8
+pyvis
+cdlib
+python-igraph
+leidenalg

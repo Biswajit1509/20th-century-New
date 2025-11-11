@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-11-11">
+    <creator>NetworkX 2.8.8</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="5" title="value" type="long" />
+      <attribute id="6" title="width" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="degree" type="long" />
+      <attribute id="1" title="title" type="string" />
+      <attribute id="2" title="value" type="long" />
+      <attribute id="3" title="size" type="long" />
+      <attribute id="4" title="group" type="long" />
+    </attributes>
+    <nodes>
+      <node id="Germany" label="Germany">
+        <attvalues>
+          <attvalue for="0" value="12" />
+          <attvalue for="1" value="Germany (degree: 12)" />
+          <attvalue for="2" value="12" />
+          <attvalue for="3" value="10" />
+          <attvalue for="4" value="1" />
+        </attvalues>
+      </node>
+      <node id="Italy" label="Italy">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="Italy (degree: 6)" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="10" />
+          <attvalue for="4" value="1" />
+        </attvalues>
+      </node>
+      <node id="France" label="France">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="France (degree: 7)" />
+          <attvalue for="2" value="7" />
+          <attvalue for="3" value="10" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="China" label="China">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="China (degree: 8)" />
+          <attvalue for="2" value="8" />
+          <attvalue for="3" value="10" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="India" label="India">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="India (degree: 6)" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="10" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Japan" label="Japan">
+        <attvalues>
+          <attvalue for="0" value="12" />
+          <attvalue for="1" value="Japan (degree: 12)" />
+          <attvalue for="2" value="12" />
+          <attvalue for="3" value="10" />
+          <attvalue for="4" value="1" />
+        </attvalues>
+      </node>
+      <node id="Russia" label="Russia">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="Russia (degree: 7)" />
+          <attvalue for="2" value="7" />
+          <attvalue for="3" value="10" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Australia" label="Australia">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Australia (degree: 1)" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="10" />
+          <attvalue for="4" value="2" />
+        </attvalues>
+      </node>
+      <node id="Canada" label="Canada">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Canada (degree: 3)" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="10" />
+          <attvalue for="4" value="2" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Germany" target="Italy" id="0">
+        <attvalues>
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Germany" target="France" id="1">
+        <attvalues>
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Germany" target="Japan" id="2">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Germany" target="Russia" id="3">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Italy" target="Japan" id="4">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="France" target="India" id="5">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="France" target="China" id="6">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="France" target="Russia" id="7">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="China" target="India" id="8">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="China" target="Japan" id="9">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="China" target="Russia" id="10">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="India" target="Russia" id="11">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="India" target="Japan" id="12">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="Russia" id="13">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="Canada" id="14">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Russia" target="Canada" id="15">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Australia" target="Canada" id="16">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
